@@ -1,19 +1,23 @@
-.csv
-
-
-# Environments
-.env
-.venv
+# Ignorar entornos virtuales
+venv/
 env/
-venv_example/
-ENV/
-env.bak/
-venv.bak/
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Ignorar archivos de configuración del entorno
+*.env
 
-# Modelos
-model/
+# Ignorar archivos de caché y compilación
+__pycache__/
+*.pyc
 
-.gz
+# Ignorar archivos de datos crudos de MNIST
+data/MNIST/raw/
+
+# Ignorar archivos y carpetas específicas del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar configuraciones específicas del IDE
+.vscode/
+.idea/
+
+.csv
