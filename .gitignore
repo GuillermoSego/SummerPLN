@@ -1,6 +1,7 @@
 # Ignorar entornos virtuales
 venv/
 env/
+venv_example/
 
 # Ignorar archivos de configuración del entorno
 *.env
@@ -11,6 +12,7 @@ __pycache__/
 
 # Ignorar archivos de datos crudos de MNIST
 data/MNIST/raw/
+UsingCluster_NN/data/MNIST/raw
 
 # Ignorar archivos y carpetas específicas del sistema operativo
 .DS_Store
