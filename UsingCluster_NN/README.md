@@ -1,7 +1,9 @@
 # Redes Neuronales en el cluster de CIMAT
 Guillermo Segura Gómez
-Maestría en Ciencias de la Computación y Matemáticas Industriales
-Centro de Investigación en Matemáticas
+
+**Maestría en Ciencias de la Computación y Matemáticas Industriales**
+
+**Centro de Investigación en Matemáticas**
 
 ## Descripción
 
@@ -52,8 +54,8 @@ Las dependencias adicionales están listadas en `requirements.txt`.
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/GuillermoSegoi/UsingCluster_NN.git
-   cd my_deep_learning_project
+   git clone https://github.com/GuillermoSego/SummerPLN.git
+   cd UsingCluster_NN
    ```
 
 2. Configura un entorno virtual e instala las dependencias:
@@ -74,7 +76,7 @@ make run
 
 ### Entrenamiento en el Clúster
 
-1. Sube el proyecto al clúster:
+1. Sube el proyecto al clúster del Cimat:
 
    ```bash
    scp -r my_deep_learning_project <user>@<host>:~/projects/

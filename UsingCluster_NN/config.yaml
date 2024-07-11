@@ -1,0 +1,18 @@
+# config.yaml
+
+data:
+  raw_dir: "data"
+  processed_dir: "data"
+
+model:
+  type: "MLP"
+  input_size: 784
+  hidden_size: 100
+  num_classes: 10
+
+training:
+  batch_size: 100
+  epochs: 5
+  learning_rate: 0.001
+  checkpoint_dir: "model/checkpoints/"
+  log_dir: "model/logs/"
