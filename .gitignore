@@ -5,7 +5,7 @@
 .env
 .venv
 env/
-venv/
+venv_example/
 ENV/
 env.bak/
 venv.bak/
