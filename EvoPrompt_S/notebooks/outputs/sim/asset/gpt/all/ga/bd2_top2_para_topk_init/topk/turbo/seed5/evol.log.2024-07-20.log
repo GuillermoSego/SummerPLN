@@ -1,0 +1,72 @@
+[2024-07-20 20:12:18,414] - ==================================================
+[2024-07-20 20:12:18,414] - dev data: ./data/sim/asset/dev_100.txt
+[2024-07-20 20:12:18,417] - test data: None
+[2024-07-20 20:12:18,418] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-20 20:12:18,419] - ==================================================
+[2024-07-20 20:12:18,420] - Instruction placeholder: <prompt>
+[2024-07-20 20:13:44,960] - ==================================================
+[2024-07-20 20:13:44,961] - dev data: ./data/sim/asset/dev_100.txt
+[2024-07-20 20:13:44,963] - test data: None
+[2024-07-20 20:13:44,964] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-20 20:13:44,965] - ==================================================
+[2024-07-20 20:13:44,966] - Instruction placeholder: <prompt>

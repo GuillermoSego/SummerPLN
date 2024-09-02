@@ -1,0 +1,6 @@
+{
+    "prompts": {
+        "Simplify the following sentence: Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.": [0.85, 0.80, 0.75],
+        "Rephrase this: Note that two storms on record, Hurricane Alice from the 1954 season and Tropical Storm Zeta from the 2005 season have formed during December and lasted into January.": [0.78, 0.76, 0.74]
+    }
+}

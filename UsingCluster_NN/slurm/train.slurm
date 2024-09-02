@@ -1,23 +1,43 @@
 #!/bin/bash
-#SBATCH --job-name=train_job
-#SBATCH --output=slurm_output/train_%j.out
-#SBATCH --error=slurm_output/train_%j.err
-#SBATCH --partition=gpu
-#SBATCH --ntasks=1
-#SBATCH --cpus-per-task=4
-#SBATCH --mem=32G
-#SBATCH --gres=gpu:1
-#SBATCH --time=04:00:00
 
-# Cargar módulos necesarios (ajustar según el clúster)
-module load python/3.8
-module load cuda/11.2
+# Partición en la que se va a ejecutar
+#SBATCH --partition=GPU
+
+# Nombre del trabajo
+#SBATCH --job-name=GuillermoS_NN
+
+# Número de tareas (usualmente 1 para trabajos de GPU)
+#SBATCH --ntasks=1
+
+# Archivo de log donde quedará lo que imprima su software por pantalla
+#SBATCH --output=result_python.log
+
+# Archivo de error donde se guardarán los errores del trabajo
+#SBATCH --error=error_python.log
+
+# Memoria máxima a utilizar en cada nodo (opcional)
+#SBATCH --mem=0
+
+# Tiempo máximo de ejecución
+#SBATCH --time=01:00:00
+
+# Cambiar al directorio de trabajo
+cd /home/est_posgrado_guillermo.segura/UsingCluster_NN
 
 # Activar el entorno virtual
-source /home/tu_usuario/my_deep_learning_project/venv_example/bin/activate
+# source venv_example/bin/activate
 
-# Navegar al directorio del proyecto
-cd /home/tu_usuario/my_deep_learning_project
+# Verificar la ubicación de python y pip (opcional)
+which python3
+which pip
 
-# Ejecutar el script de entrenamiento
-python src/train.py --config config.yaml
+# Verificar la versión de Python (opcional, para asegurarse de que se usa el correcto)
+python3 --version
+
+pip list
+
+# Ejecutar el script de Python
+python3 src/train.py
+
+# Desactivar el entorno virtual
+# deactivate

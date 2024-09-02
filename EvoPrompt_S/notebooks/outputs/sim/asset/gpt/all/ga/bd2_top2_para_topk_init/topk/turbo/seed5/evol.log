@@ -1,0 +1,978 @@
+[2024-07-25 17:23:46,404] - ==================================================
+[2024-07-25 17:23:46,406] - dev data: ./data/sim/asset/dev_100.txt
+[2024-07-25 17:23:46,407] - test data: None
+[2024-07-25 17:23:46,407] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-25 17:23:46,408] - ==================================================
+[2024-07-25 17:23:46,409] - Instruction placeholder: <prompt>
+[2024-07-25 17:25:24,686] - ==================================================
+[2024-07-25 17:25:24,687] - dev data: ./data/sim/asset/dev_100.txt
+[2024-07-25 17:25:24,688] - test data: None
+[2024-07-25 17:25:24,689] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-25 17:25:24,690] - ==================================================
+[2024-07-25 17:25:24,691] - Instruction placeholder: <prompt>
+[2024-07-25 17:26:00,035] - ==================================================
+[2024-07-25 17:26:00,065] - dev data: ./data/sim/asset/dev_100.txt
+[2024-07-25 17:26:00,067] - test data: None
+[2024-07-25 17:26:00,070] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-25 17:26:00,076] - ==================================================
+[2024-07-25 17:26:00,079] - Instruction placeholder: <prompt>
+[2024-07-25 17:26:00,153] - ### dataset example: En un día soleado, María decidió ir a caminar por el parque con su perro, disfrutando del buen clima y de la tranquilidad del entorno.
+
+[2024-07-25 17:34:17,384] - ==================================================
+[2024-07-25 17:34:17,427] - dev data: ./data/sim/asset/dev_100.txt
+[2024-07-25 17:34:17,463] - test data: None
+[2024-07-25 17:34:17,465] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-25 17:34:17,466] - ==================================================
+[2024-07-25 17:34:17,467] - Instruction placeholder: <prompt>
+[2024-07-25 17:34:17,506] - ### dataset example: En un día soleado, María decidió ir a caminar por el parque con su perro, disfrutando del buen clima y de la tranquilidad del entorno.
+
+[2024-07-25 17:34:41,772] - ==================================================
+[2024-07-25 17:34:41,773] - dev data: ./data/sim/asset/dev_100.txt
+[2024-07-25 17:34:41,774] - test data: None
+[2024-07-25 17:34:41,775] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-25 17:34:41,776] - ==================================================
+[2024-07-25 17:34:41,777] - Instruction placeholder: <prompt>
+[2024-07-25 17:34:41,819] - ### dataset example: En un día soleado, María decidió ir a caminar por el parque con su perro, disfrutando del buen clima y de la tranquilidad del entorno.
+
+[2024-07-25 17:35:37,816] - ==================================================
+[2024-07-25 17:35:37,817] - dev data: ./data/sim/asset/dev_100.txt
+[2024-07-25 17:35:37,818] - test data: None
+[2024-07-25 17:35:37,820] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-25 17:35:37,821] - ==================================================
+[2024-07-25 17:35:37,823] - Instruction placeholder: <prompt>
+[2024-07-25 17:36:08,533] - ### dataset example: En un día soleado, María decidió ir a caminar por el parque con su perro, disfrutando del buen clima y de la tranquilidad del entorno.
+
+[2024-07-25 17:53:37,903] - ==================================================
+[2024-07-25 17:53:37,905] - dev data: ./data/sim/asset/dev_100.txt
+[2024-07-25 17:53:37,906] - test data: None
+[2024-07-25 17:53:37,907] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-25 17:53:37,908] - ==================================================
+[2024-07-25 17:53:37,909] - Instruction placeholder: <prompt>
+[2024-07-25 17:53:42,354] - ### dataset example: En un día soleado, María decidió ir a caminar por el parque con su perro, disfrutando del buen clima y de la tranquilidad del entorno.
+
+[2024-07-25 17:55:14,076] - ### dataset example: En un día soleado, María decidió ir a caminar por el parque con su perro, disfrutando del buen clima y de la tranquilidad del entorno.
+
+[2024-07-25 18:02:32,545] - ==================================================
+[2024-07-25 18:02:32,547] - dev data: ./data/sim/asset/dev_100.txt
+[2024-07-25 18:02:32,549] - test data: None
+[2024-07-25 18:02:32,551] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-25 18:02:32,553] - ==================================================
+[2024-07-25 18:02:32,557] - Instruction placeholder: <prompt>
+[2024-07-25 18:02:35,828] - ### dataset example: En un día soleado, María decidió ir a caminar por el parque con su perro, disfrutando del buen clima y de la tranquilidad del entorno.
+
+[2024-07-25 18:03:50,791] - ### dataset example: En un día soleado, María decidió ir a caminar por el parque con su perro, disfrutando del buen clima y de la tranquilidad del entorno.
+
+[2024-07-25 18:09:18,834] - ==================================================
+[2024-07-25 18:09:18,836] - dev data: ./data/sim/asset/dev_100.txt
+[2024-07-25 18:09:18,836] - test data: None
+[2024-07-25 18:09:18,837] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-25 18:09:18,837] - ==================================================
+[2024-07-25 18:09:18,838] - Instruction placeholder: <prompt>
+[2024-07-25 18:09:22,762] - ### dataset example: En un día soleado, María decidió ir a caminar por el parque con su perro, disfrutando del buen clima y de la tranquilidad del entorno.
+
+[2024-07-25 18:10:33,155] - ==================================================
+[2024-07-25 18:10:33,156] - dev data: ./data/sim/asset/dev_100.txt
+[2024-07-25 18:10:33,157] - test data: None
+[2024-07-25 18:10:33,157] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-25 18:10:33,159] - ==================================================
+[2024-07-25 18:10:33,159] - Instruction placeholder: <prompt>
+[2024-07-25 18:10:33,990] - ### dataset example: En un día soleado, María decidió ir a caminar por el parque con su perro, disfrutando del buen clima y de la tranquilidad del entorno.
+
+[2024-07-25 18:12:52,938] - ==================================================
+[2024-07-25 18:12:52,941] - dev data: ./data/sim/asset/dev_100.txt
+[2024-07-25 18:12:52,943] - test data: None
+[2024-07-25 18:12:52,945] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-25 18:12:52,948] - ==================================================
+[2024-07-25 18:12:52,949] - Instruction placeholder: <prompt>
+[2024-07-25 18:12:53,520] - ### dataset example: En un día soleado, María decidió ir a caminar por el parque con su perro, disfrutando del buen clima y de la tranquilidad del entorno.
+
+[2024-07-25 18:13:10,166] - ==================================================
+[2024-07-25 18:13:10,168] - dev data: ./data/sim/asset/dev_100.txt
+[2024-07-25 18:13:10,169] - test data: None
+[2024-07-25 18:13:10,169] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-25 18:13:10,170] - ==================================================
+[2024-07-25 18:13:10,170] - Instruction placeholder: <prompt>
+[2024-07-25 18:13:11,047] - ### dataset example: En un día soleado, María decidió ir a caminar por el parque con su perro, disfrutando del buen clima y de la tranquilidad del entorno.
+
+[2024-07-25 18:14:15,883] - ==================================================
+[2024-07-25 18:14:15,884] - dev data: ./data/sim/asset/dev_100.txt
+[2024-07-25 18:14:15,885] - test data: None
+[2024-07-25 18:14:15,885] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-25 18:14:15,886] - ==================================================
+[2024-07-25 18:14:15,887] - Instruction placeholder: <prompt>
+[2024-07-25 18:14:16,733] - ### dataset example: En un día soleado, María decidió ir a caminar por el parque con su perro, disfrutando del buen clima y de la tranquilidad del entorno.
+
+[2024-07-25 19:50:11,513] - ==================================================
+[2024-07-25 19:50:11,514] - dev data: ./data/sim/asset/dev_100.txt
+[2024-07-25 19:50:11,516] - test data: None
+[2024-07-25 19:50:11,519] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-25 19:50:11,520] - ==================================================
+[2024-07-25 19:50:11,521] - Instruction placeholder: <prompt>
+[2024-07-25 19:50:13,892] - ### dataset example: En un día soleado, María decidió ir a caminar por el parque con su perro, disfrutando del buen clima y de la tranquilidad del entorno.
+
+[2024-07-25 19:51:21,989] - ==================================================
+[2024-07-25 19:51:21,990] - dev data: ./data/sim/asset/dev_100.txt
+[2024-07-25 19:51:21,991] - test data: None
+[2024-07-25 19:51:21,991] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-25 19:51:21,992] - ==================================================
+[2024-07-25 19:51:21,992] - Instruction placeholder: <prompt>
+[2024-07-25 19:51:27,049] - ### dataset example: En un día soleado, María decidió ir a caminar por el parque con su perro, disfrutando del buen clima y de la tranquilidad del entorno.
+
+[2024-07-25 20:01:45,446] - ==================================================
+[2024-07-25 20:01:45,447] - dev data: ./data/sim/asset/dev_100.txt
+[2024-07-25 20:01:45,448] - test data: None
+[2024-07-25 20:01:45,449] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-25 20:01:45,449] - ==================================================
+[2024-07-25 20:01:45,450] - Instruction placeholder: <prompt>
+[2024-07-25 20:01:52,919] - ==================================================
+[2024-07-25 20:01:52,921] - dev data: ./data/sim/asset/dev_100.txt
+[2024-07-25 20:01:52,922] - test data: None
+[2024-07-25 20:01:52,923] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 100
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-25 20:01:52,924] - ==================================================
+[2024-07-25 20:01:52,925] - Instruction placeholder: <prompt>
+[2024-07-25 20:01:55,470] - ### dataset example: En un día soleado, María decidió ir a caminar por el parque con su perro, disfrutando del buen clima y de la tranquilidad del entorno.
+
+[2024-07-25 20:03:53,824] - ==================================================
+[2024-07-25 20:03:53,826] - dev data: ./data/sim/asset/dev_100.txt
+[2024-07-25 20:03:53,826] - test data: None
+[2024-07-25 20:03:53,827] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 3
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-25 20:03:53,827] - ==================================================
+[2024-07-25 20:03:53,827] - Instruction placeholder: <prompt>
+[2024-07-25 20:04:04,001] - ==================================================
+[2024-07-25 20:04:04,002] - dev data: ./data/sim/asset/dev_100.txt
+[2024-07-25 20:04:04,002] - test data: None
+[2024-07-25 20:04:04,003] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 3
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-25 20:04:04,003] - ==================================================
+[2024-07-25 20:04:04,004] - Instruction placeholder: <prompt>
+[2024-07-25 20:04:04,944] - ### dataset example: En un día soleado, María decidió ir a caminar por el parque con su perro, disfrutando del buen clima y de la tranquilidad del entorno.
+
+[2024-07-25 20:06:33,558] - ==================================================
+[2024-07-25 20:06:33,560] - dev data: ./data/sim/asset/dev_100.txt
+[2024-07-25 20:06:33,561] - test data: None
+[2024-07-25 20:06:33,562] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 2
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-25 20:06:33,563] - ==================================================
+[2024-07-25 20:06:33,564] - Instruction placeholder: <prompt>
+[2024-07-25 20:06:35,782] - ### dataset example: En un día soleado, María decidió ir a caminar por el parque con su perro, disfrutando del buen clima y de la tranquilidad del entorno.
+
+[2024-07-25 20:08:44,143] - ==================================================
+[2024-07-25 20:08:44,144] - dev data: ./data/sim/asset/dev_100.txt
+[2024-07-25 20:08:44,145] - test data: None
+[2024-07-25 20:08:44,145] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 3
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-25 20:08:44,145] - ==================================================
+[2024-07-25 20:08:44,146] - Instruction placeholder: <prompt>
+[2024-07-25 20:09:03,249] - ==================================================
+[2024-07-25 20:09:03,250] - dev data: ./data/sim/asset/dev_100.txt
+[2024-07-25 20:09:03,251] - test data: None
+[2024-07-25 20:09:03,252] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 3
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-25 20:09:03,252] - ==================================================
+[2024-07-25 20:09:03,253] - Instruction placeholder: <prompt>
+[2024-07-25 20:09:47,426] - ==================================================
+[2024-07-25 20:09:47,427] - dev data: ./data/sim/asset/dev_100.txt
+[2024-07-25 20:09:47,428] - test data: None
+[2024-07-25 20:09:47,429] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 3
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-25 20:09:47,429] - ==================================================
+[2024-07-25 20:09:47,430] - Instruction placeholder: <prompt>
+[2024-07-25 20:10:15,078] - ==================================================
+[2024-07-25 20:10:15,079] - dev data: ./data/sim/asset/dev_100.txt
+[2024-07-25 20:10:15,081] - test data: None
+[2024-07-25 20:10:15,081] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = ./data/sim/asset/dev_100.txt
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 3
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-25 20:10:15,082] - ==================================================
+[2024-07-25 20:10:15,083] - Instruction placeholder: <prompt>
+[2024-07-25 20:10:46,189] - ### dataset example: En un día soleado, María decidió ir a caminar por el parque con su perro, disfrutando del buen clima y de la tranquilidad del entorno.
+
+[2024-07-25 20:14:07,280] - ==================================================
+[2024-07-25 20:14:07,281] - dev data: None
+[2024-07-25 20:14:07,282] - test data: None
+[2024-07-25 20:14:07,282] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 3
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-25 20:14:07,283] - ==================================================
+[2024-07-25 20:14:07,284] - Instruction placeholder: <prompt>
+[2024-07-25 20:14:10,602] - ### dataset example: En un día soleado, María decidió ir a caminar por el parque con su perro, disfrutando del buen clima y de la tranquilidad del entorno.
+
+[2024-07-25 20:15:20,653] - ==================================================
+[2024-07-25 20:15:20,655] - dev data: None
+[2024-07-25 20:15:20,656] - test data: None
+[2024-07-25 20:15:20,658] - 
+	dataset = asset
+	task = sim
+	test_file = None
+	batch_size = 20
+	max_new_tokens = 128
+	prompt_num = 0
+	dev_file = None
+	output = outputs/sim/asset/gpt/all/ga/bd2_top2_para_topk_init/topk/turbo/seed5
+	language_model = gpt
+	position = pre
+	sample_num = 3
+	seed = 5
+	budget = 2
+	popsize = 2
+	evo_mode = ga
+	llm_type = turbo
+	initial = all
+	initial_mode = para_topk
+	para_mode = None
+	ckpt_pop = None
+	template = v1
+	pred_mode = logits
+	client = False
+	cache_path = data/sim/asset/seed5/prompts_gpt.json
+	setting = default
+	donor_random = False
+	ga_mode = topk
+	content = 
+	write_step = 10
+	sel_mode = wheel
+[2024-07-25 20:15:20,659] - ==================================================
+[2024-07-25 20:15:20,660] - Instruction placeholder: <prompt>
+[2024-07-25 20:15:23,350] - ### dataset example: En un día soleado, María decidió ir a caminar por el parque con su perro, disfrutando del buen clima y de la tranquilidad del entorno.
+
