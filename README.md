@@ -1,4 +1,10 @@
-# Proyecto Tecnológico. Procesamiento del Lenguaje Natural
+# Optimización de prompts utilizando algoritmos genéticos
+## Centro de Investigación en Matemáticas 
+
+## Proyecto Tecnológica
+
+### Maestría en Ciencias con Especialidad en Computación y Matemáticas Industriales 
+
 Guillermo Segura Gómez
 
 ## Introducción
