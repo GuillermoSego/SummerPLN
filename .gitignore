@@ -23,3 +23,6 @@ Thumbs.db
 .idea/
 
 .csv
+
+# Ignorar carpeta de datos
+data/
