@@ -1,7 +1,7 @@
 # Optimización de prompts utilizando algoritmos genéticos
 ## Centro de Investigación en Matemáticas 
 
-## Proyecto Tecnológica
+## Proyecto Tecnológico
 
 ### Maestría en Ciencias con Especialidad en Computación y Matemáticas Industriales 
 
